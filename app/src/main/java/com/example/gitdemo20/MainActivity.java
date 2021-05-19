@@ -17,6 +17,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         mButtonAdd = findViewById(R.id.buttonAdd);
         mtextview = findViewById(R.id.textview);
+        mButtonSub = findViewById(R.id.buttonSub);
+
         mtextview.setText(String.valueOf(number));
         mButtonAdd.setOnClickListener(v ->{
         mtextview.setText(String.valueOf(++number));});
