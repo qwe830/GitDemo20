@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
                 mtextview.setText(String.valueOf(number=0));
                 break;
 
-
+            default:break;
         }
         return super.onOptionsItemSelected(item);
     }
